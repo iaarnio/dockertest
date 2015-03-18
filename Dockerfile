@@ -1,9 +1,5 @@
-FROM codenvy/angular-yeoman
+FROM nginx
 
-RUN mkdir /src
-WORKDIR /src
-ADD . /src
+ADD app /usr/share/nginx/html
 
-EXPOSE 3000
-
-#RUN grunt?
+EXPOSE 80
