@@ -14,8 +14,16 @@
 <body>
   <div ng-view>
     <h2>Docker test</h2>
-    <button class="b1">test</button>
+    <button id="1" onClick="myClick(this.id)">test1</button>
+    <button id="2" onClick="myClick(this.id)">test2</button>
   </div>
-
 </body>
+
+<script  type="text/javascript">
+function myClick(clicked_id)
+{
+    alert("Clicked " + clicked_id);
+}
+</script>
+
 </html>
