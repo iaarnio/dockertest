@@ -9,8 +9,10 @@ Publish one static page just to show app content is available.
 
 ## Docker build
 
-Docker build has been automated to repo iaarnio/dockertest
-Every commit to GitHub will automatically rebuild docker image for this.
+DockerHub: iaarnio/dockertest
+
+The docker build has been automated.
+Every commit to GitHub will automatically rebuild the public DockerHub image.
 
 ## Usage
 
